@@ -407,7 +407,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('💬 Rᴇǫᴜᴇsᴛ Hᴇʀᴇ', url='https://t.me/pirecykingsdiscussion')
+            InlineKeyboardButton('💬 Rᴇǫᴜᴇsᴛ Hᴇʀᴇ', url='https://t.me/pirecykingsdiscussion'')
         ], [
             InlineKeyboardButton('⚙ Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('⚔ Aʙᴏᴜᴛ', callback_data='about')
@@ -420,7 +420,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
-       buttons = [[ InlineKeyboardButton('↻ Sᴜᴘᴘᴏʀᴛs', url='https://t.me/pirecykingsdiscussion)
+       buttons = [[ InlineKeyboardButton('↻ Sᴜᴘᴘᴏʀᴛs', url='https://t.me/pirecykingsdiscussion')
       ], [
             InlineKeyboardButton('◁', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -432,7 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "about":
-        buttons = [[ InlineKeyboardButton('↻ Sᴜᴘᴘᴏʀᴛ', url='https://t.me/pirecykingsdiscussion)
+        buttons = [[ InlineKeyboardButton('↻ Sᴜᴘᴘᴏʀᴛ', url='https://t.me/pirecykingsdiscussion')
       ], [
             InlineKeyboardButton('◁', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
