@@ -1,5 +1,6 @@
 class script(object):
     START_TXT = """Hᴇʏ {} 
+    
 ɪ'ᴍ PirecyX ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ-ꜰɪʟᴛᴇʀ ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴀꜱ ᴀ ᴀᴜᴛᴏ-ꜰɪʟᴛᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 
 ×── Hᴏᴡ ᴛᴏ ᴜꜱᴇ ──×
@@ -13,42 +14,29 @@ Powered by @Pirecykings
 """
 # ᴛʏᴘᴇ '@PirecyXbot Movie/Series Name' 
     
-    HELP_TXT = """
-    🙋🏻‍♂️   Hellooo  {} 🤓
+    HELP_TXT = """Hᴇʏ  {} 
 
-○  Tutorial video is here @sources_cods
+×── Hᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ──×
+▸ Iɴ ᴘʀɪᴠᴀᴛᴇ ɢʀᴏᴜᴘ - ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀꜱ ᴀᴅᴍɪɴ 
+ ᴀɴᴅ ɴᴏᴡ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ʏᴏᴜ ᴡᴀɴᴛ
+▸ Iɴ ᴀɴʏ ᴄʜᴀᴛ - ᴊᴜꜱᴛ ᴛʏᴘᴇ @PirecyXbot 
+ ᴀɴᴅ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ ꜱᴘᴀᴄᴇ ᴀɴᴅ ꜱᴇᴀʀᴄʜ ᴀɴʏ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ʏᴏᴜ ᴡᴀɴᴛ 
 
-○  it's Note Complicated...🤓
+○ Note :- ɪ ᴀᴍ @Pirecykings ᴇxᴄʟᴜꜱɪᴠᴇ ʙᴏᴛ
+ ᴛᴏ ᴜꜱᴇ ᴍᴇ ʏᴏᴜ ᴍᴜꜱᴛ ᴛʜᴇ ᴘᴀʀᴛ ᴏꜰ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ
 
-○  Search using inline mode
-This methord works on any chat, Just type @Filters_Ro_Bot and then leave a space and search any movie you want...
-
-○ Available Commands
-     
- /start - Check I'm Alive..
- /status - Bot Status
- /info - User info 
- /id - User id
- /stats - Db status  
- /broadcast - Broadcast (owner only)
-
-○ Notice 📙:-
-
-○Dont Spam Me...🤒
-
-😎 Powered by @MOVIES_ZILAA
-
-©️ Maintained By @GuruBhai11"""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Am_RoBots>ᴀᴍ_ᴛᴇᴄʜ</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+○ Dont Spam Here :- Uꜱᴇ ᴀʙᴏᴠᴇ ᴍᴇᴛʜᴏᴅꜱ ᴏʀ ᴜꜱᴇ ᴍᴇ ᴀᴛ @PirecykingsTalks
+"""
+    ABOUT_TXT = """╭───────────────⍟
+├<b> My Name</b> : {}
+├<b> Created by</b> : 𝘈𝘑
+├<b> Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
+├<b> Language</b> : <a href=https://www.python.org>Python 3</a>
+├<b> Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
+├<b> Server : Heroku
+╰───────────────⍟"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
-- Source - https://github.com/8769ANURAG/EvaMaria  
 
 <b>DEVS:</b>
 - <a href=https://t.me/Am_RoBots>ᴀᴍ_ᴛᴇᴄʜ</a>"""
