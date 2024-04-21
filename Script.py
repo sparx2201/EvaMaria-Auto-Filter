@@ -1,16 +1,18 @@
 class script(object):
-    START_TXT = """Yo...Yo...ANURAG {} 💖
-I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group
+    START_TXT = """Hᴇʏ {} 
+ɪ'ᴍ PirecyX ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ-ꜰɪʟᴛᴇʀ ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴀꜱ ᴀ ᴀᴜᴛᴏ-ꜰɪʟᴛᴇʀ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ
 
-Its Easy To Use Me; Just Add Me To Your Group As Admin, 
-Thats All, i will Provide Movies There...🤓🤪
+×── Hᴏᴡ ᴛᴏ ᴜꜱᴇ ──×
+▸ Iɴ ᴘʀɪᴠᴀᴛᴇ ɢʀᴏᴜᴘ - ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀꜱ ᴀᴅᴍɪɴ 
+ ᴀɴᴅ ɴᴏᴡ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ʏᴏᴜ ᴡᴀɴᴛ
+▸ Iɴ ᴀɴʏ ᴄʜᴀᴛ - ᴊᴜꜱᴛ ᴛʏᴘᴇ @PirecyXbot 
+ ᴀɴᴅ ᴛʜᴇɴ ʟᴇᴀᴠᴇ ᴀ ꜱᴘᴀᴄᴇ ᴀɴᴅ ꜱᴇᴀʀᴄʜ ᴀɴʏ ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ ʏᴏᴜ ᴡᴀɴᴛ 
 
+Powered by @Pirecykings
 
-⚠️More Help Check Help Button Below
-
-😎 Powered by @MOVIES_ZILAA
-
-©️ Maintained By @GuruBhai11"""
+"""
+# ᴛʏᴘᴇ '@PirecyXbot Movie/Series Name' 
+    
     HELP_TXT = """
     🙋🏻‍♂️   Hellooo  {} 🤓
 
