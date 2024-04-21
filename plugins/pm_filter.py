@@ -422,20 +422,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Powered By :- @Pirecykings')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
-        ]]
+            InlineKeyboardButton('Status', callback_data='stats'),
+            InlineKeyboardButton('Report', url='https://t.me/Assistant_XUbot')
+            ],[
+                InlineKeyboardButton('Home', callback_data='start')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+
+
+    #InlineKeyboardButton('🔐 Close', callback_data='close_data')
+    
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
-        ]]
+            InlineKeyboardButton('Status', callback_data='stats'),
+            InlineKeyboardButton('Report', url='https://t.me/Assistant_XUbot')
+            ],[
+                InlineKeyboardButton('Home', callback_data='start'),
+                InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
